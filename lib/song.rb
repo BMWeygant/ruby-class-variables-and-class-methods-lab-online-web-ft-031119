@@ -43,7 +43,7 @@ def self.genre_count
 @@genre.each {|genre| genre[@@genre.to_h]}
 
 
-
+end
 
 
 end
