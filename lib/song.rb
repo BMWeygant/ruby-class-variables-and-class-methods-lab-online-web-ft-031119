@@ -20,5 +20,6 @@ def self.count
 end
 
 def genre_count
-
+genre ||= []
+genre << genre.uniq
 end
