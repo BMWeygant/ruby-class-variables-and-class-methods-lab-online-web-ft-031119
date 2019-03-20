@@ -19,8 +19,7 @@ def self.count
    @@count
 end
 
-def genre_count
-genre ||= []
-genre << genre.uniq
+def artists
+  @@artists << artist.uniq
 end
 end
