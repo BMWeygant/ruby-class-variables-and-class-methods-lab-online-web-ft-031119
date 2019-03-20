@@ -30,12 +30,12 @@ def self.genres
 end
 
 def self.genre_count
-  genre_count = {}
-  @@genres.each do |genre|
-    if genre_count[genre]
-      genre_count[genre] += 1
+  genre_count = {} #creates empty hash
+  @@genres.each do |genre| #iterates through an array containing data
+    if genre_count[genre] # establishes each seperate piece of data as a key in empty hash
+      genre_count[genre] += 1 # increases the value of the appropraite genre's key for every song
     else
-      genre_count[genre] = 1
+      genre_count[genre] = 1 #genre simply being recognized means there is at least 1 song count, so no other songs means genre = 1
     end
   end
   genre_count
