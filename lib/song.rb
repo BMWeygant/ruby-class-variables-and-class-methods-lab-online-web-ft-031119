@@ -20,7 +20,7 @@ def self.count
    @@count
 end
 
-#def artists
-#  @@artists << artist.uniq
-#end
+def self.artists
+  @@artists.uniq
+end
 end
