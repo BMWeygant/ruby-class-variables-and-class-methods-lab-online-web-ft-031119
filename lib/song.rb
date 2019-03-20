@@ -40,4 +40,10 @@ def self.genre_count
   #end
 #  genre_count
 #end
+@@genre.each {|genre| genre[@@genre.to_h]}
+
+
+
+
+
 end
