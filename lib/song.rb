@@ -23,3 +23,4 @@ def genre_count
 genre ||= []
 genre << genre.uniq
 end
+end
